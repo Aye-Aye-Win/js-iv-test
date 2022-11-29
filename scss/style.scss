@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;600;700&display=swap');
+$font-family-sanserif: 'Montserrat',sanserif;
+
+.del-btn{
+    display: none;
+}
+
+#rows tr:hover .del-btn{
+    display: block;
+    font-size: 10px;
+    transition: .5s;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css"
